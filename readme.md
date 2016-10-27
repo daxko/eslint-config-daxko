@@ -1,6 +1,9 @@
 # eslint-config-daxko
 
-A [shareable][http://eslint.org/docs/developer-guide/shareable-configs.html] ESLint config for Daxko.
+A [shareable](http://eslint.org/docs/developer-guide/shareable-configs.html) ESLint config for Daxko.
+
+[![Build Status](https://travis-ci.org/daxko/eslint-config-daxko.svg?branch=master)](https://travis-ci.org/daxko/eslint-config-daxko)
+[![npm](https://img.shields.io/npm/v/eslint-config-daxko.svg?style=flat)](https://www.npmjs.com/package/eslint-config-daxko)
 
 ## Installation
 
