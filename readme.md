@@ -26,7 +26,7 @@ Once installed, you will need to add `daxko` in the [extends](http://eslint.org/
 
 ### `daxko/react`
 
-If you're working with React, you can include additional rules by adding `daxko/react` in the [extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) property of your `.eslintrc` file.
+If you're working with React, you can include additional rules by adding `daxko/react` in the [extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) property of your `.eslintrc` file. `eslint-plugin-react` is required as an additional dependency.
 
 ```
 {
