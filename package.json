@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-daxko",
+  "version": "1.0.0",
+  "description": "Daxko's Linting Configurations for Javascript",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=2.0.0",
+    "eslint-plugin-react": "^6.4.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "files": [
+    "index.js",
+    "react.js",
+    "rules"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "daxko",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxko/javascript.git"
+  },
+  "author": "Jason Wilson <jason@scurker.com>",
+  "contributors": [
+    {
+      "name": "Jason Wilson",
+      "url": "https://twitter.com/scurker"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daxko/javascript/issues"
+  },
+  "homepage": "https://github.com/daxko/javascript#readme"
+}
