@@ -34,17 +34,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-loop-func
     'no-loop-func': 'error',
 
-    // Warn magic numbers
-    // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': ['warn', { ignore: [1], ignoreArrayIndexes: true }],
-
     // Disable function constructors
     // http://eslint.org/docs/rules/no-new-func
     'no-new-func': 'error',
-
-    // Warn against parameter reassigning
-    // http://eslint.org/docs/rules/no-param-reassign
-    'no-param-reassign': 'warn',
 
     // Disable use of __proto__
     // http://eslint.org/docs/rules/no-proto
