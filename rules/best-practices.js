@@ -36,7 +36,7 @@ module.exports = {
 
     // Warn magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': ['warn', { ignoreArrayIndexes: true }],
+    'no-magic-numbers': ['warn', { ignore: [1], ignoreArrayIndexes: true }],
 
     // Disable function constructors
     // http://eslint.org/docs/rules/no-new-func
