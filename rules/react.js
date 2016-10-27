@@ -18,7 +18,7 @@ module.exports = {
 
     // Prevent duplicate properties in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
 
     // Prevent undefined variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
