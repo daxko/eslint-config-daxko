@@ -1,4 +1,7 @@
 {
-  "extends": ["daxko"],
+  "extends": ["./index.js"],
+  "env": {
+    "node": true
+  },
   "rules": {}
 }

@@ -20,6 +20,7 @@
     "rules"
   ],
   "keywords": [
+    "daxko",
     "eslint",
     "eslintconfig",
     "config",
@@ -40,6 +41,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daxko/javascript/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "homepage": "https://github.com/daxko/javascript#readme"
 }
