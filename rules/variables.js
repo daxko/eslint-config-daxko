@@ -1,10 +1,8 @@
 module.exports = {
-
   rules: {
-
     // Disable use of undefined
     // http://eslint.org/docs/rules/no-undefined
-    'no-undefined': 'error',
+    'no-undefined': 'off',
 
     // Check that defined variables and args are used
     // http://eslint.org/docs/rules/no-unused-vars
@@ -12,8 +10,9 @@ module.exports = {
 
     // Prevent variable use before definition, except for functions
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': ['warn', { functions: false, classes: true }],
-
+    'no-use-before-define': [
+      'warn',
+      { functions: false, classes: true, variables: true }
+    ]
   }
-
 };
