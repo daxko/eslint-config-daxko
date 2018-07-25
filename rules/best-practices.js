@@ -1,14 +1,12 @@
 module.exports = {
-
   rules: {
-
     // Enforce curly brace conventions
     // http://eslint.org/docs/rules/curly
-    'curly': ['error', 'all'],
+    curly: ['error', 'multi-line'],
 
     // Require use of === & !== when necessary
     // http://eslint.org/docs/rules/eqeqeq
-    'eqeqeq': ['error', 'smart'],
+    eqeqeq: ['error', 'smart'],
 
     // Disable alerts
     // http://eslint.org/docs/rules/no-alert
@@ -24,7 +22,12 @@ module.exports = {
 
     // Disable empty functions
     // http://eslint.org/docs/rules/no-empty-function
-    'no-empty-function': 'error',
+    'no-empty-function': [
+      'error',
+      {
+        allow: ['arrowFunctions', 'functions', 'methods']
+      }
+    ],
 
     // Disable extending native objects
     // http://eslint.org/docs/rules/no-extend-native
@@ -48,8 +51,6 @@ module.exports = {
 
     // Require radix parameter for parseInt
     // http://eslint.org/docs/rules/radix
-    'radix': 'warn',
-
+    radix: 'warn'
   }
-
 };
