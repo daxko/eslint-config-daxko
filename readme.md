@@ -7,7 +7,7 @@ A [shareable](http://eslint.org/docs/developer-guide/shareable-configs.html) ESL
 
 ## Installation
 
-```$ npm install --save-dev eslint eslint-config-daxko```
+`$ npm install --save-dev eslint eslint-config-daxko`
 
 ## Usage
 
@@ -36,3 +36,8 @@ If you're working with React, you can include additional rules by adding `daxko/
   }
 }
 ```
+
+## Updating on npm
+
+Make sure you have have an account on npmjs.com.  
+Contact a team member or tech ops to get added to Daxko org to publish.
